@@ -1,0 +1,193 @@
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.card {
+    max-width: 341px;
+    background: rgb(24, 30, 39);
+    background: linear-gradient(0deg, rgba(24, 30, 39, 1) 50%, rgba(35, 42, 52, 1) 100%);
+    border-radius: 24px;
+    padding: 32px;
+    margin-top: 50vh !important;
+    transform: translateY(-50%);
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+.starimg {
+    border-radius: 50%;
+    background: #262E38;
+    border: none;
+    height: 48px;
+    width: 48PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.how {
+    font-family: "Overpass";
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.please {
+    font-family: "Overpass";
+    color: #969FAD;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.number {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.numeros {
+    height: 51px;
+    width: 51px;
+    border-radius: 50%;
+    background: #262E38;
+    color: #7C8798;
+    border: none;
+    font-family: "Overpass";
+    font-size: 16px;
+    font-weight: 700;
+    align-items: 24px;
+
+}
+
+.numeros:hover {
+    background: #FC7614;
+    color: white;
+}
+
+.numeros:focus {
+    background: #7C8798;
+    color: white;
+}
+
+
+.submit {
+    padding: 11px 11px;
+    background: #FC7614;
+    color: white;
+    font-family: "Overpass";
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 32px;
+    width: 100%;
+
+}
+
+.submit:hover {
+    background: white;
+    color: #FC7614;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.thankimg {}
+
+
+.you {
+    font-family: "Overpass";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FC7614;
+    background: #262E38;
+    max-width: 200px;
+    border-radius: 500px;
+    padding: 4px 20px;
+    margin-top: 32px;
+}
+
+.thank {
+    font-family: "Overpass";
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.we {
+    font-family: "Overpass";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #969FAD;
+    margin: 0;
+
+}
+
+@media (max-width:400px) {
+    .card {
+        margin: 0 24px;
+        padding: 24px;
+
+    }
+
+    .numeros {
+        height: 42px;
+        width: 42px;
+    }
+
+    .please {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .how {
+        font-size: 24px;
+        padding-top: 0;
+    }
+
+    .thankimg {
+        max-width: 130px;
+    }
+
+   .thankimg img {
+    width: 100%;
+   }
+
+   .you {
+    font-size: 14px;
+    line-height: 22px;
+   }
+
+   .thank {
+       font-size: 24px;
+
+   }
+
+   .we {
+    font-size: 14px;
+    line-height: 22px;
+   }
+}
